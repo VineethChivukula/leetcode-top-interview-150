@@ -55,8 +55,7 @@
  * 
  * Drawback of the approach:
  * The drawback of this approach is that we are using two pointers and swapping
- * the elements which is not required and we can use a single pointer to solve
- * the problem.
+ * the elements which is not required.
  * 
  * Efficient Approach:
  * The idea we took before is correct but we can optimize it. We can take a
