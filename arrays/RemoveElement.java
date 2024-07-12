@@ -2,7 +2,7 @@
  * Problem Statement:
  * The problem says that there is an array and an integer. We have to remove all
  * the occurrences of the integer from the array and then return the length of
- * the array. We also need to modify the array such that the elements can be any
+ * the array. We also need to modify the array such that the elements can be any in
  * order as they were in the original array. The remaining elements are not
  * important. For example, if the array is [3, 2, 2, 3] and the integer is 3,
  * then the output should be 2 and the array should be [2,2,_,_].
