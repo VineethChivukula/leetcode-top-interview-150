@@ -81,11 +81,14 @@
  * (m+n-1)th index of the first array. We will compare the elements at the ith
  * and jth index. If the element at the ith index is greater than the element at
  * the jth index, then we will copy the element at the ith index into the kth
- * index and decrement the value of i and k by 1. Otherwise, we will copy the
- * element at the jth index into the kth index and decrement the value of j and
- * k by 1. We will repeat the above steps until i and j are greater than or
- * equal to 0. We will copy the remaining elements of the second array into the
- * first array if any elements are left in the second array.
+ * index and decrement the value of i and k by 1. We do this because, if the element 
+ * at the ith index is less than the element at the jth index, it means that the 
+ * element at jth index is the highest value of all elements. We came to this conclusion 
+ * because the arrays are sorted. Otherwise, we will copy the element at the jth index 
+ * into the kth index and decrement the value of j and k by 1. We will repeat the above 
+ * steps until i and j are greater than or equal to 0. We will copy the remaining 
+ * elements of the second array into the first array if any elements are left in the 
+ * second array.
  * 
  * Time Complexity Analysis:
  * Since i and j are traversing the first and second arrays respectively, the
