@@ -25,6 +25,10 @@
  * The Space Complexity of this approach is O(n) since we are using an
  * array-list to store the non duplicate elements.
  * 
+ * Drawback of the approach:
+ * The drawback of this approach is that we are using extra space and also we
+ * are traversing the array multiple times.
+ * 
  * Efficient Approach:
  * We will take two pointers i and j. Keep i at 0 and j at 1. We will traverse
  * the array and if the element at the ith index is equal to the element at the
@@ -42,51 +46,51 @@
  * extra space.
  */
 
-import java.util.List;
-import java.util.ArrayList;
-
-public class RemoveDuplicatesfromSortedArray {
-	public int approach1(int[] nums) {
-		List<Integer> list = new ArrayList<>();
-		for (int i = 0; i < nums.length; i++) {
-			if (!list.contains(nums[i])) {
-				list.add(nums[i]);
-			}
-		}
-		for (int i = 0; i < list.size(); i++) {
-			nums[i] = list.get(i);
-		}
-
-		return list.size();
-	}
-
-	public int efficient(int[] nums) {
-		int n = nums.length;
-
-		if (n == 0 || n == 1) {
-			return n;
-		}
-
-		int i = 0, j = 1;
-
-		while (j < n) {
-			if (nums[i] == nums[j]) {
-				j++;
-			} else {
-				i++;
-				nums[i] = nums[j];
-				j++;
-			}
-		}
-
-		return i + 1;
-	}
-
-	public static void main(String[] args) {
-		RemoveDuplicatesfromSortedArray rdsa = new RemoveDuplicatesfromSortedArray();
-		int[] nums = { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 };
-		// System.out.println(rdsa.approach1(nums));
-		// nums = new int[] { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 };
-		System.out.println(rdsa.efficient(nums));
-	}
-}
+ import java.util.List;
+ import java.util.ArrayList;
+ 
+ public class RemoveDuplicatesfromSortedArray {
+	 public int approach1(int[] nums) {
+		 List<Integer> list = new ArrayList<>();
+		 for (int i = 0; i < nums.length; i++) {
+			 if (!list.contains(nums[i])) {
+				 list.add(nums[i]);
+			 }
+		 }
+		 for (int i = 0; i < list.size(); i++) {
+			 nums[i] = list.get(i);
+		 }
+ 
+		 return list.size();
+	 }
+ 
+	 public int efficient(int[] nums) {
+		 int n = nums.length;
+ 
+		 if (n == 0 || n == 1) {
+			 return n;
+		 }
+ 
+		 int i = 0, j = 1;
+ 
+		 while (j < n) {
+			 if (nums[i] == nums[j]) {
+				 j++;
+			 } else {
+				 i++;
+				 nums[i] = nums[j];
+				 j++;
+			 }
+		 }
+ 
+		 return i + 1;
+	 }
+ 
+	 public static void main(String[] args) {
+		 RemoveDuplicatesfromSortedArray rdsa = new RemoveDuplicatesfromSortedArray();
+		 int[] nums = { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 };
+		 // System.out.println(rdsa.approach1(nums));
+		 // nums = new int[] { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 };
+		 System.out.println(rdsa.efficient(nums));
+	 }
+ }
