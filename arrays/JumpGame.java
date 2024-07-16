@@ -44,7 +44,7 @@
  * Efficient Approach:
  * Okay, so let us solve this problem by visualizing it like a game. Let us say
  * you are at the first index. Your score now is 0 + nums[0]. Assume that there
- * is a flag at that index value. For example, if the value is 2, then there is
+ * is a flag at that index value. For example, if the score is 2, then there is
  * a flag at second index of the array. Now, keep on traversing the array. At
  * any point, if you find an i such that i + nums[i] is greater than or equal to
  * flag, you are allowed to pick that and update the flag to that value. Hence,
