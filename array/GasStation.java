@@ -39,11 +39,11 @@
  * approach. We will run a loop from 0 to n. Inside the loop, we will calculate
  * the gas[i] - cost[i] and store it in the totalGasBalance. We will also
  * calculate the currentGasBalance as currentGasBalance + gas[i] - cost[i].
- * currentGasBalance will keep track of the gas balance from the ith station to
- * the future stations. If currentGasBalance is less than 0, we will set
- * currentGasBalance to 0 and set startIndex to i+1. We will return startIndex
- * if totalGasBalance is greater than or equal to 0. We will return -1 if we
- * come out of the loop.
+ * currentGasBalance will keep track of the gas balance from the startIndex
+ * station to the future stations. If currentGasBalance is less than 0, we will
+ * set currentGasBalance to 0 and set startIndex to i+1. We will return
+ * startIndex if totalGasBalance is greater than or equal to 0. We will return
+ * -1 if we come out of the loop.
  * 
  * Time Complexity Analysis:
  * The Time Complexity of this approach is O(n) since we are running a single
@@ -54,7 +54,7 @@
  * extra space.
  */
 
-public class GasStation {
+ public class GasStation {
 	public int approach1(int[] gas, int[] cost) {
 		int n = gas.length;
 		for (int startIndex = 0; startIndex < n; startIndex++) {
