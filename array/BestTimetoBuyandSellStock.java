@@ -7,7 +7,7 @@
  * sell it at 6. So, the profit will be 6-1 = 5. If there is no profit, then we
  * return 0.
  * 
- * Thought Process:
+ * Thought Process::
  * Approach 1:
  * The first approach that should come to our mind is that we can use two loops
  * to find out the maximum profit. The outer loop will traverse the array and

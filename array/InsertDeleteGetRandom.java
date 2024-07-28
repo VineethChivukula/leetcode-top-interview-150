@@ -7,7 +7,7 @@
  * 3. getRandom: Returns a random element from current set of elements. Each
  * element must have the same probability of being returned.
  * 
- * Thought Process:
+ * Thought Process::
  * Approach 1:
  * The first approach that should come to our mind is that we can use a HashSet
  * to store the elements. The add method of the HashSet returns a boolean value

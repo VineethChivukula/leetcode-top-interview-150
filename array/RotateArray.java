@@ -4,7 +4,7 @@
  * the right by k steps. For example, if the array is [1, 2, 3, 4, 5, 6, 7] and
  * k is 3, then the array should be rotated to [5, 6, 7, 1, 2, 3, 4].
  * 
- * Thought Process:
+ * Thought Process::
  * Approach 1:
  * The first approach that should come to our mind is that we can use an
  * array-list to store the elements of the array. Then, we can add the elements

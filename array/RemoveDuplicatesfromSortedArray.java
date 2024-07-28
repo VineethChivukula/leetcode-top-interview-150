@@ -6,7 +6,7 @@
  * were in the original array. For example, if the array is [1,1,2] then the
  * output is [1,2,_].
  * 
- * Thought Process:
+ * Thought Process::
  * Approach 1:
  * The first approach that should come to our mind is that we can take an
  * array-list to store the non duplicate elements of the array. We will traverse

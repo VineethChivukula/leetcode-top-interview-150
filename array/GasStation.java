@@ -7,7 +7,7 @@
  * Return the starting gas station's index if you can travel around the circuit
  * once in the clockwise direction, otherwise return -1.
  * 
- * Thought Process:
+ * Thought Process::
  * Approach 1:
  * The first approach that should come to our mind is that we follow the rules
  * of the problem statement. We take startIndex, travelCost, and travelIndex.

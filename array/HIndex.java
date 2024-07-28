@@ -7,7 +7,7 @@
  * least 3 citations. The papers with 3 citations are [3, 6, 5]. The remaining 2
  * papers have 0 and 1 citations. So, the H-Index is 3.
  * 
- * Thought Process:
+ * Thought Process::
  * Approach 1:
  * The first approach that should come to our mind is that we can run a loop
  * until we calculate the H-Index. We will keep track of the count of the papers

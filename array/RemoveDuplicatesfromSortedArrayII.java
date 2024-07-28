@@ -7,7 +7,7 @@
  * array. For example, if the array is [1,1,1,2,2,3] then the output is
  * [1,1,2,2,3,_,_].
  * 
- * Thought Process:
+ * Thought Process::
  * Approach 1:
  * The first approach that should come to our mind is that we can take a TreeMap
  * to store the frequency of each element of the array. Why TreeMap? Because it

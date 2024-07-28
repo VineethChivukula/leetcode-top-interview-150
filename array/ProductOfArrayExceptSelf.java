@@ -5,7 +5,7 @@
  * nums[i]. We are not allowed to use division. For example, given [1, 2, 3, 4],
  * return [24, 12, 8, 6].
  * 
- * Thought Process:
+ * Thought Process::
  * Approach 1:
  * The first approach that should come to our mind is that we can run two loops.
  * So, we will run a loop from 0 to n. Inside the loop, we will run another loop

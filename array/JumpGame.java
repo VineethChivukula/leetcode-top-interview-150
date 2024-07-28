@@ -12,7 +12,7 @@
  * to reach the last index. We have to find out whether we can reach the last
  * index or not.
  * 
- * Thought Process:
+ * Thought Process::
  * Approach 1:
  * The first approach that should come to our mind is that we can greedily move
  * to the index where we can jump the maximum. So we will run a loop from 0 to

@@ -6,7 +6,7 @@
  * majority element always exists in the array. For example, if the array is [3,
  * 2, 3] then the majority element is 3.
  * 
- * Thought Process:
+ * Thought Process::
  * Approach 1:
  * The first approach that should come to our mind is that we can sort the array
  * and then keep track of the count of the elements. If the count of any element

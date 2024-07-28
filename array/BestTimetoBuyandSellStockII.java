@@ -7,7 +7,7 @@
  * and sell it at 5. Then we can buy the stock at 3 and sell it at 6. So, the
  * profit will be 5-1 + 6-3 = 7. If there is no profit, then we return 0.
  * 
- * Thought Process:
+ * Thought Process::
  * Efficient Approach:
  * Most of us will definitely think of the efficient approach due to the nature
  * of the problem. If the price of the stock is less than the next price, then
