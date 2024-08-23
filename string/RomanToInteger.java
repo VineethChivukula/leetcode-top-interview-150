@@ -116,4 +116,11 @@ public class RomanToInteger {
 
 		return result;
 	}
+
+	public static void main(String[] args) {
+		RomanToInteger obj = new RomanToInteger();
+		String s = "IV";
+		// System.out.println(obj.approach1(s));
+		System.out.println(obj.efficient(s));
+	}
 }
