@@ -118,9 +118,9 @@ public class RomanToInteger {
 	}
 
 	public static void main(String[] args) {
-		RomanToInteger obj = new RomanToInteger();
+		RomanToInteger rti = new RomanToInteger();
 		String s = "IV";
-		// System.out.println(obj.approach1(s));
-		System.out.println(obj.efficient(s));
+		// System.out.println(rti.approach1(s));
+		System.out.println(rti.efficient(s));
 	}
 }
