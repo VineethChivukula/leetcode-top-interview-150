@@ -160,9 +160,9 @@ public class LengthofLastWord {
 	public static void main(String[] args) {
 		LengthofLastWord lolw = new LengthofLastWord();
 		String s = "Hello World";
-		System.out.println(lolw.approach1(s));
-		System.out.println(lolw.approach2(s));
-		System.out.println(lolw.approach3(s));
+		// System.out.println(lolw.approach1(s));
+		// System.out.println(lolw.approach2(s));
+		// System.out.println(lolw.approach3(s));
 		System.out.println(lolw.efficient(s));
 	}
 }
